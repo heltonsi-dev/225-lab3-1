@@ -7,7 +7,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/heltonsi'                                                 // <------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/heltonsi-dev/225-lab3-1.git'                   // <------change this
-        KUBECONFIG = credentials('heltonsi-sp26')                                             // <------change this
+        KUBECONFIG = credentials('heltonsi-225-sp26')                                             // <------change this
     }
 
     stages {
